@@ -1,0 +1,24 @@
+{
+  "name": "inlamning1",
+  "version": "1.0.0",
+  "description": "Inlämningsuppgift 1 i JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexxx033/inlamning1js.git"
+  },
+  "keywords": [
+    "js",
+    "inlämning",
+    "spel"
+  ],
+  "author": "Aleksander Grumic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexxx033/inlamning1js/issues"
+  },
+  "homepage": "https://github.com/alexxx033/inlamning1js#readme"
+}
