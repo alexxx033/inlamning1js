@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  
+  <link rel="stylesheet" href="index.css">
+  <script src="main.js"></script>
+
+  <title>Tic Tac Toe</title>
 </head>
 <body>
+<section class="titel">
+  <h1>Tic Tac Toe</h1>
+</section> 
+<section class="valjspelare">
+  <h2>Välj din spelare</h2>
   
+  <div class="chose-player">
+    <input type="radio" name="choseplayer" value="1" checked/>
+    <label for="choseplayer">X</label>
+    <input type="radio" name="choseplayer" value="-1" /> 
+    <label for="choseplayer">O</label>
+  </div>
+  </section>
+
+  <section class="game-area">
+    <div class="ruta"></div>
+    <div class="ruta"></div>
+    <div class="ruta"></div>
+    <div class="ruta"></div>
+    <div class="ruta"></div>
+    <div class="ruta"></div>
+    <div class="ruta"></div>
+    <div class="ruta"></div>
+    <div class="ruta"></div>
+  </section>
+<br>
+  <button id="reset-button">Reset</button>
+
 </body>
 </html>
